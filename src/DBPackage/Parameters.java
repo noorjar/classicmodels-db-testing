@@ -23,7 +23,7 @@ public class Parameters {
 		rs  = stmt.executeQuery(query);
 		while(rs.next()) {
 			 number = rs.getInt("customerNumber");
-			System.out.println("This is random number from Customer Table = "+ number);
+			//System.out.println("This is random number from Customer Table = "+ number);
 		}
 		return number;
 		 }	
@@ -38,7 +38,7 @@ public class Parameters {
         // Generate six random digits
         int digits = ThreadLocalRandom.current().nextInt(100000, 1000000); // Six digits between 100000 and 999999
         String CN = String.valueOf(letter1) + String.valueOf(letter2) + Integer.toString(digits);
-		System.out.println("This Ranom Number for Check Number = "+ CN);
+		//System.out.println("This Ranom Number for Check Number = "+ CN);
 
         // Combine the letters and digits into the desired format
         return CN ;
@@ -69,7 +69,7 @@ public class Parameters {
 		rs  = stmt.executeQuery(query1);
 		while(rs.next()) {
 			Code = rs.getString("productCode");
-			System.out.println("This is random code from Proudcts table = "+ Code);
+			//System.out.println("This is random code from Proudcts table = "+ Code);
 
 		}
 		return Code ;	
@@ -80,7 +80,7 @@ public class Parameters {
 		int number1 = rand.nextInt(90) + 10;
         int number2 = rand.nextInt(10000);
         String myNewCode = letter + Integer.toString(number1) + "_" + number2;
-		System.out.println("The new code that will be added in test 2 = "+ myNewCode);
+		//System.out.println("The new code that will be added in test 2 = "+ myNewCode);
 
         return myNewCode;
 	}
@@ -91,7 +91,7 @@ public class Parameters {
 		rs = stmt.executeQuery("SELECT productLine FROM productlines ORDER BY RAND() LIMIT 1");
 		while(rs.next()) {
 			productLine = rs.getString("productLine");
-			System.out.println("product Line = " + productLine);
+			//System.out.println("product Line = " + productLine);
 			
 		}
 		return productLine;

@@ -5,7 +5,7 @@
     <classes>
       <class name="DBPackage.MainClass">
         <methods>
-          <include name="OrderPlacementandPayment"/>
+          <include name="PaymentAmountConsistency"/>
           <include name="mysetup"/>
         </methods>
       </class> <!-- DBPackage.MainClass -->

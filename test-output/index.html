@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Noor\AppData\Local\Temp\testng-eclipse-2111532801\testng-customsuite.xml</span>
+                    <span>C:\Users\Noor\AppData\Local\Temp\testng-eclipse-1666421015\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="DBPackage.MainClass" class="method navigator-link" hash-for-method="OrderPlacementandPayment">OrderPlacementandPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DBPackage.MainClass" class="method navigator-link" hash-for-method="OrderRollback">OrderRollback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DBPackage.MainClass" class="method navigator-link" hash-for-method="PaymentAmountConsistency">PaymentAmountConsistency</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,6 +154,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="OrderRollback">
+                  </a> <!-- OrderRollback -->
+                  <span class="method-name">OrderRollback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaymentAmountConsistency">
+                  </a> <!-- PaymentAmountConsistency -->
+                  <span class="method-name">PaymentAmountConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="ProductManagement">
                   </a> <!-- ProductManagement -->
                   <span class="method-name">ProductManagement</span>
@@ -161,7 +185,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Noor\AppData\Local\Temp\testng-eclipse-2111532801\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Noor\AppData\Local\Temp\testng-eclipse-1666421015\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,24 +234,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'OrderPlacementandPayment')
 data.setCell(0, 2, 'DBPackage.MainClass')
-data.setCell(0, 3, 78);
+data.setCell(0, 3, 69);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ReferentialIntegrityTest')
 data.setCell(1, 2, 'DBPackage.MainClass')
-data.setCell(1, 3, 38);
+data.setCell(1, 3, 35);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ProductManagement')
 data.setCell(2, 2, 'DBPackage.MainClass')
-data.setCell(2, 3, 24);
+data.setCell(2, 3, 22);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OrderRollback')
+data.setCell(3, 2, 'DBPackage.MainClass')
+data.setCell(3, 3, 6);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PaymentAmountConsistency')
+data.setCell(4, 2, 'DBPackage.MainClass')
+data.setCell(4, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 140 ms</span>
+              <span class="suite-total-time">Total running time: 135 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -260,15 +292,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">OrderPlacementandPayment</span>
-                <span class="method-start">442 ms</span>
+                <span class="method-start">432 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ProductManagement</span>
-                <span class="method-start">524 ms</span>
+                <span class="method-start">505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ReferentialIntegrityTest</span>
-                <span class="method-start">552 ms</span>
+                <span class="method-start">529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrderRollback</span>
+                <span class="method-start">565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PaymentAmountConsistency</span>
+                <span class="method-start">572 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
