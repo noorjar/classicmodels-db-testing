@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T00:54:56 EET" name="Default suite" finished-at="2024-09-13T00:54:56 EET" duration-ms="497">
+  <suite started-at="2024-09-14T03:12:08 EET" name="Default suite" finished-at="2024-09-14T03:12:09 EET" duration-ms="597">
     <groups>
     </groups>
-    <test started-at="2024-09-13T00:54:56 EET" name="Default test" finished-at="2024-09-13T00:54:56 EET" duration-ms="497">
+    <test started-at="2024-09-14T03:12:08 EET" name="Default test" finished-at="2024-09-14T03:12:09 EET" duration-ms="597">
       <class name="DBPackage.MainClass">
-        <test-method is-config="true" signature="mysetup()[pri:0, instance:DBPackage.MainClass@7db12bb6]" started-at="2024-09-13T00:54:56 EET" name="mysetup" finished-at="2024-09-13T00:54:56 EET" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:DBPackage.MainClass@2d52216b]" started-at="2024-09-14T03:12:08 EET" name="mysetup" finished-at="2024-09-14T03:12:09 EET" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mysetup -->
-        <test-method signature="mytest()[pri:0, instance:DBPackage.MainClass@7db12bb6]" started-at="2024-09-13T00:54:56 EET" name="mytest" finished-at="2024-09-13T00:54:56 EET" duration-ms="66" status="PASS">
+        <test-method signature="OrderPlacementandPayment()[pri:1, instance:DBPackage.MainClass@2d52216b]" started-at="2024-09-14T03:12:09 EET" name="OrderPlacementandPayment" finished-at="2024-09-14T03:12:09 EET" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
+        </test-method> <!-- OrderPlacementandPayment -->
+        <test-method signature="ProductManagement()[pri:2, instance:DBPackage.MainClass@2d52216b]" started-at="2024-09-14T03:12:09 EET" name="ProductManagement" finished-at="2024-09-14T03:12:09 EET" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductManagement -->
+        <test-method signature="ReferentialIntegrityTest()[pri:3, instance:DBPackage.MainClass@2d52216b]" started-at="2024-09-14T03:12:09 EET" name="ReferentialIntegrityTest" finished-at="2024-09-14T03:12:09 EET" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReferentialIntegrityTest -->
       </class> <!-- DBPackage.MainClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
